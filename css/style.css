@@ -185,3 +185,79 @@ h2{
 }
 
 /* KRAJ O NAMA SEKCIJE */
+
+/* POCETAK PREPORUKE SEKCIJE */
+
+.preporuke-section{
+    background-color: rgba(150, 247, 242);
+    margin: 40px auto;
+    padding: 40px 100px;
+}
+
+.preporuke-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.preporuka{
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 4px 8px 8px rgb(139, 148, 116, 0.5);
+    padding: 20px;
+    margin-top: 10px;
+    width: 500px;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.preporuka:nth-child(1){
+    animation: slideInLeft 2s ease forwards;
+    animation-delay: 0.2s;
+}
+
+.preporuka:nth-child(2){
+    animation: slideInRight 2s ease forwards;
+    animation-delay: 0.6s;
+}
+
+@keyframes slideInLeft{
+    from{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight{
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.preporuka-footer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.preporuka-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.zvezdice{
+    font-size: small;
+    color: gold;
+}
+
+/* KRAJ PREPORUKE SEKCIJE */

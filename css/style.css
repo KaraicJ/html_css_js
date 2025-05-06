@@ -169,7 +169,7 @@ h2{
     grid-template-columns: 1fr 1fr;
     margin: 50px auto;
     border-radius: 0px 30px 30px 0px;
-    box-shadow: 10px 15px 15px rgba(185, 174, 15, 0.5);
+    box-shadow: 10px 15px 15px rgba(100, 95, 21, 0.5);
 }
 
 .o-nama-tekst{
@@ -261,3 +261,65 @@ h2{
 }
 
 /* KRAJ PREPORUKE SEKCIJE */
+
+/* POCETAK ZASTO BAS MI SEKCIJE */
+
+.zasto-bas-mi-section{
+    margin: 50px auto;
+    padding: 50px;
+    background-color: rgb(214, 170, 195);
+    max-width: 1000px;
+    border-radius: 30px;
+    box-shadow: 6px 9px 15px 5px rgb(100, 38, 73);
+}
+
+.zasto-bas-mi-grid{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid: 20px;
+    margin: 10px;
+}
+
+.slika img{
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+    border-radius: 20px ;
+    border: solid rgb(100, 38, 73);
+}
+
+.slika{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.razlog{
+    background-color: #5c3f2d;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(214, 170, 195);
+    border: solid rgb(100, 38, 73);
+}
+
+.kolona1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    color: rgb(100, 38, 73);
+    background-color: rgb(207, 109, 191);
+    border-radius: 20px 0 0 20px;
+}
+
+.kolona2{
+    padding: 10px;
+}
+
+
+/* KRAJ ZASTO BAS MI SEKCIJE */

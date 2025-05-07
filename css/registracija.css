@@ -69,3 +69,11 @@ input::placeholder{
     background-image: linear-gradient(to right, rgb(235, 90, 136), rgb(99, 27, 51));
     transform: translateY(-2px);
 }
+
+p{
+    padding-left: 20px;
+}
+
+a{
+    color: rgb(31, 29, 29);
+}

@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/e6/ba/88/e6ba88313a90fae2888f3b38dff1fde5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registracija-section{
+    background-color: rgb(100, 38, 73, 0.8);
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 30px;
+}
+
+.input-group{
+    background-color: rgb(247, 145, 221);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.input-group i{
+    padding: 10px;
+    font-size: 15px;
+}
+
+.input-group input{
+    background-color: rgb(247, 145, 221);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-group input:focus{
+    outline: none;
+    border: none;
+}
+
+.input-group select{
+    background-color: rgb(247, 145, 221);
+    border: none;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+.dugme-submit{
+    background-image: linear-gradient(to right, rgb(99, 27, 51), rgb(235, 90, 136));
+    display: block;
+    margin-left: auto;
+    padding: 8px;
+    border-radius: 8px;
+    color: black;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 4px 4px rgb(99, 27, 51);
+}
+
+.dugme-submit:hover{
+    background-image: linear-gradient(to right, rgb(235, 90, 136), rgb(99, 27, 51));
+    transform: translateY(-2px);
+}

@@ -2,6 +2,11 @@ body{
     background-image: url(https://i.pinimg.com/736x/e6/ba/88/e6ba88313a90fae2888f3b38dff1fde5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Poppins", sans-serif;
+}
+
+h2{
+    font-family: "Pacifico", cursive;
 }
 
 .registracija-section{

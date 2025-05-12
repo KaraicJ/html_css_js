@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+}
+
+h2{
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+    color: #6F4D38;
+}
+
+.ponuda-section{
+    background-color: pink;
+    text-align: center;
+    width: 900px;
+    height: auto;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 3px 6px 6px rgb(235, 95, 118);
+}
+
+.sviproizvodi{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background-color: pink;
+    padding: 10px;
+}
+
+.proizvod{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(236, 137, 153);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(235, 95, 118);
+    box-shadow: 2px 5px 5px rgb(235, 95, 118);
+}
+
+.proizvod img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 5px rgb(235, 95, 118);
+}
+
+.nazivproizvoda{
+    font-size: 15px;
+    font-weight: bolder;
+    color: #6F4D38;
+}
+
+.dodajukorpu{
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: pink;
+    color: #6F4D38;
+    border: none;
+}
+
+.dodajukorpu:hover{
+    background-color: #6F4D38;
+    color: pink;
+    transform: scale(1.03);
+    transition-duration: 0.2s;
+}
+
+.staracena{
+    text-decoration: line-through;
+}
+
+.novacena,.redovnacena{
+    font-weight: bold;
+    font-size: 15px;
+    color: #6F4D38;
+}

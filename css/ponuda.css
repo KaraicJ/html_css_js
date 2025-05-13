@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-    font-size: 10px;
+    /* font-size: 10px; */
 }
 
 h2{
@@ -48,6 +48,10 @@ h2{
     height: 150px;
     border-radius: 20px;
     box-shadow: 2px 5px 5px rgb(235, 95, 118);
+}
+
+.txtproizvod{
+    font-size: 10px;
 }
 
 .nazivproizvoda{

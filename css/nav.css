@@ -1,0 +1,31 @@
+nav{
+    background-color:rgba(129, 138, 122, 0.61);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.linkmenija{
+    text-decoration: none;
+    color: #fedce1;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.linkmenija:hover{
+    color: #fc8e9f;
+}

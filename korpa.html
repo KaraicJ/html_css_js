@@ -22,6 +22,8 @@
                 <img src="./images/logo.png" alt="Logo">
             </div>
 
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">&#9776;</label>
             <ul class="nav-link">
                 <li><a href="./index.html" class="linkmenija">Pocetna</a></li>
                 <li><a href="./ponuda.html" class="linkmenija">Ponuda</a></li>
@@ -39,15 +41,16 @@
         <div class="sviproivodiukorpi">
             <table>
 
-                <tr>
+                 <thead><tr>
                     <th>Proizvod</th>
                     <th>Slika</th>
                     <th>Cena</th>
                     <th>Količina</th>
                     <th>Ukupno</th>
                     <th>Obriši</th>
-                </tr>
+                </tr></thead>
 
+                <tbody>
                 <tr>
                     <td>Jagoda</td>
                     <td><img src="./images/jagoda.jpg" alt="Jagoda"></td>
@@ -65,7 +68,7 @@
                     <td>180</td>
                     <td><button class="obrisi"><i class="fa-solid fa-trash"></i></button></td>
                 </tr>
-                
+                </tbody>
             </table>
         </div>
     </section>

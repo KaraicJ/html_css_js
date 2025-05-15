@@ -191,7 +191,7 @@ h2{
 .preporuke-section{
     background-color: rgba(150, 247, 242);
     margin: 40px auto;
-    padding: 40px 100px;
+    padding: 40px 10%;
 }
 
 .preporuke-grid{
@@ -206,7 +206,7 @@ h2{
     box-shadow: 4px 8px 8px rgb(139, 148, 116, 0.5);
     padding: 20px;
     margin-top: 10px;
-    width: 500px;
+    width: 90%;
     opacity: 0;
     animation-fill-mode: forwards;
 }
@@ -323,3 +323,58 @@ h2{
 
 
 /* KRAJ ZASTO BAS MI SEKCIJE */
+
+@media (max-width: 768px) {
+  #hero-content {
+    width: 90%;
+    padding: 20px;
+    font-size: medium;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  #hero-section {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .ukusi-grid{
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .ukusi-box img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .stiker-novo{
+    top: 10px;
+    left: 20px;
+  }
+
+  .best-seller-section h2{
+    margin-top: 30px;
+  }
+
+  .o-nama-section{
+    grid-template-columns: 1fr;
+  }
+
+  .o-nama-slika img{
+    border-radius: 20px;
+  }
+
+  .preporuke-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .slika{
+    display: none;
+  }
+
+}

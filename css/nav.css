@@ -29,3 +29,33 @@ nav{
 .linkmenija:hover{
     color: #fc8e9f;
 }
+
+#menu-toggle{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+    color: #fedce1;
+}
+
+@media (max-width: 768px){
+
+    .nav-link{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        background-color: rgba(129, 138, 122, 0.61);
+    }
+
+    #menu-toggle:checked ~ .nav-link{
+        display: flex;
+    }
+
+    .hamburger{
+        display: flex;
+    }
+}

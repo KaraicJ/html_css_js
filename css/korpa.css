@@ -68,3 +68,22 @@ input{
 
 }
 
+@media (max-width: 768px) {
+   table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+        border: none;
+    }
+
+    thead {
+        display: none;
+    }
+
+     tr {
+        border: 1px solid pink;
+        border-radius: 10px;
+        box-shadow: 2px 4px 5px pink;
+        margin: 10px;
+    }
+}
+

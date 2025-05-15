@@ -135,6 +135,8 @@ textarea{
 
 iframe{
     border-radius: 10px;
+    width: 95%;
+    height: auto;
 }
 
 /* KRAJ KONTAKT MAPE */

@@ -79,11 +79,12 @@ input{
         display: none;
     }
 
-     tr {
+    tr {
         border: 1px solid pink;
         border-radius: 10px;
         box-shadow: 2px 4px 5px pink;
-        margin: 10px;
+        margin: 10px auto;
+        text-align: center; 
     }
 }
 
